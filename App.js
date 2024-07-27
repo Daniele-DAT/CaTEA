@@ -1,24 +1,24 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
-
+import Inicio from './src/componets/inicial';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Ola meninas, tudo bem??!!</Text>
-      <Text>Ola meninas, tudo bem??!!</Text>
-      <Text>Ola meninas, tudo bem??!!</Text>
-      <Text>Ola meninas, tudo bem??!!</Text>
-      <StatusBar style="auto" />
+
+        <Inicio></Inicio>
+
+
     </View>
   );
 }
 
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: "#20B2AA",
+    alignItems: "center",
+    justifyContent: "center",
   },
 });
